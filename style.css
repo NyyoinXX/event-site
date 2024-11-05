@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px 0; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: right;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    margin-right: auto; 
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.intro img {
+    border-radius: 100%;
+}
+
+.intro{
+    display: flex;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.intro-text {
+    padding-top: 150px;
+}
+
+.intro h1{
+    font-size: 100px;
+}
+
+.intro h1:hover{
+    color:crimson;
+    transition: ease 0.3s;
+    
+}
+
+.intro p{
+    margin: 10px 0 40px;
+    font-size: 40px;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+    
+}
+
+.button:hover{
+    box-shadow: 0 0 5px crimson;
+    border: 1px solid darkred;
+    transition: ease 0.3s;
+    
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-size: xx-small
+}
+
+/* --- Register --- */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .contact label {
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  
+  .contact input {
+    resize: none;
+    background-color: #fff;
+    height: auto;
+  }
+
+  .contact select {
+    background-color: #fff;
+  }
+
+  .contact button {
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+  
+  .contact button:hover{
+    box-shadow: 0 0 5px crimson;
+    border: 1px solid darkred;
+    transition: ease 0.3s;
+    
+}
+  
+/* Schedule */
+.main {
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
+
+.event-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+}
+
+
+.event-post {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.event-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-image {
+width: 120px;
+height: 120px;
+object-fit: cover;
+margin-right: 15px;
+border-radius: 2%;
+}
+
+.post-details {
+display: flex;
+flex-direction: column;
+}
+
+.post-genre {
+font-size: 0.9em;
+color: #666;
+margin: 0;
+}
+
+.post-date {
+color: #999;
+}
+
+.post-title {
+font-size: 1.2em;
+margin: 5px 0;
+}
+
+.post-description {
+font-size: 0.95em;
+color: #333;
+margin-top: 10px;
+}
